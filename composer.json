@@ -1,0 +1,31 @@
+{
+    "name": "quadstudio/laravel-online",
+    "description": "Check if user is online for Laravel 5",
+    "keywords": ["laravel", "cart"],
+    "homepage": "https://github.com/quadstudio/laravel-online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Shuleyko",
+            "email": "salex009@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "QuadStudio\\Online\\": "src/Online/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=7.1",
+        "illuminate/support": "5.6.x"
+	},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "QuadStudio\\Online\\OnlineServiceProvider"
+            ]
+        }
+    }
+}
