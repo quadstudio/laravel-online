@@ -5,6 +5,7 @@
     "homepage": "https://github.com/quadstudio/laravel-online",
     "type": "library",
     "license": "MIT",
+    "version": "0.1.1",
     "authors": [
         {
             "name": "Alexander Shuleyko",
@@ -17,10 +18,10 @@
         }
     },
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
 		"php": ">=7.1",
-        "illuminate/support": "5.6.x",
-        "illuminate/http": "5.6.x"
+        "laravel/framework": "5.6.x"
 	},
     "extra": {
         "laravel": {
